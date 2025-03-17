@@ -13,7 +13,7 @@
 - macOS Monterey 12.x 
 - macOS Ventura  13.x 
 - macOS Sonoma  14.x 
-- macOS Sequoia  15.x
+- macOS Sequoia  15.x**(WiFi 需使用 [OCLP-Mod by laobamac](https://github.com/hackintosh-club/intel-nuc10/releases/tag/oclp) 打入驱动补丁)**
 
 
 ### 硬件
