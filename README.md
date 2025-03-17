@@ -6,13 +6,14 @@
 
 ### OpenCore
 
-[OpenCore 0.9.7](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 1.0.4](https://github.com/acidanthera/OpenCorePkg)
 
 ### OS Version Tested
 
 - macOS Monterey 12.x
 - macOS Ventura  13.x 
 - macOS Sonoma  14.x 
+- macOS Sequoia  15.x
 
 
 ### Hardware
@@ -58,7 +59,7 @@ Boot
  - Use  [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools/releases) build your SMBIOS
  - If you want to use a CPU without  Efficient-Core, you must uncheck the option in the config.plist file Kernel--ProvideCurrentCpuinfo
  - Use the Power button to wake up from sleep
- - Intel AX211 WiFi driver ([AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases) in this EFI is only applicable to MacOS 14 Sonoma. Please download and replace this driver yourself when installing other MacOS versions
+ - Intel AX211 WiFi driver ([AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases) in this EFI is only applicable to MacOS 15 Sequoia with OCLP. Please download and replace this driver yourself when installing other MacOS versions
  - Intel AX211 Not Supported  Airdrop
 
 

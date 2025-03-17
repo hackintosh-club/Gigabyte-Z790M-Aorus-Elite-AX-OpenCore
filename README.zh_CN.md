@@ -6,13 +6,14 @@
 
 ### OpenCore
 
-[OpenCore 0.9.7](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 1.0.4](https://github.com/acidanthera/OpenCorePkg)
 
 ### 可安装系统
 
 - macOS Monterey 12.x 
 - macOS Ventura  13.x 
 - macOS Sonoma  14.x 
+- macOS Sequoia  15.x
 
 
 ### 硬件
@@ -59,7 +60,7 @@ Boot
  - 安装完成后请使用 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools/releases) 生成自己的三码
  - 如需使用没有小核心的CPU，必须取消勾选配置文件中Kernel--ProvideCurrentCpuinfo选项
  - 请使用电源键进行睡眠唤醒
- - 此EFI中的英特尔无线网卡驱动[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)仅适用于 MacOS 14 Sonoma,安装其它版本请自行下载替换此驱动
+ - 此EFI中的英特尔无线网卡驱动[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)仅适用于 MacOS 15 Sonoma并使用OCLP补丁使用,安装其它版本请自行下载替换此驱动
  - 英特尔无线网卡无法使用隔空投送等功能
 
 
